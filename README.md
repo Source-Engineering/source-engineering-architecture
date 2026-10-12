@@ -1,4 +1,4 @@
-# Source Engineering -- Architecture
+# Architecture
 
 > Reference architecture, blueprint stack, per-layer interface contracts.
 
@@ -6,11 +6,11 @@ This repository holds the discipline's reference architecture. It defines the fo
 
 ## What is in this repository
 
-- `four-layer-stack.md` -- the canonical reference architecture. Each layer named, scoped, owned.
-- `layer-contracts/` -- the per-layer interface contracts. What each layer accepts, what each layer produces, what each layer guarantees.
-- `blueprints/` -- the architecture blueprint stack. Each blueprint versions the architecture for a specific release; v0.1 is the typed-model floor.
-- `pillar-x-layer-matrix.md` -- the load-bearing 5x4 mapping. Each pillar maps to one or more layers; each cell carries a verdict (covered, partial, gap) and a rationale.
-- `diagrams/` -- Mermaid source files for the official architecture diagrams.
+- `four-layer-stack.md` - the canonical reference architecture. Each layer named, scoped, owned.
+- `layer-contracts/` - the per-layer interface contracts. What each layer accepts, what each layer produces, what each layer guarantees.
+- `blueprints/` - the architecture blueprint stack. Each blueprint versions the architecture for a specific release; v0.1 is the typed-model floor.
+- `pillar-x-layer-matrix.md` - the load-bearing 5x4 mapping. Each pillar maps to one or more layers; each cell carries a verdict (covered, partial, gap) and a rationale.
+- `diagrams/` - Mermaid source files for the official architecture diagrams.
 
 ## How to engage
 
