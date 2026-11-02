@@ -38,7 +38,7 @@ Layer 4 fails when:
 
 ## Conformance
 
-A conformance test for this contract lives at `Source-Engineering/source-engineering-conformance/contracts/layer-4/`. The conformance test takes a DecisionRecord and a sequence of change events, invokes the layer, and verifies the layer's guarantees.
+Shipped as of RFC-0005 (accepted 2026-11-02): the reference implementation's `src/layer4/` module (JSONL append-only `AuditStore` with in-memory and file backends, `Layer4.applyChange`/`replay`), the TC-L4-01..05 validators in `Source-Engineering/source-engineering-conformance` (`src/contracts/layer4-integrity.ts`), and the `se-trace audit` replay command in `Source-Engineering/source-engineering-tools`. A conformance test for this contract lives at `Source-Engineering/source-engineering-conformance/contracts/layer-4/`. The conformance test takes a DecisionRecord and a sequence of change events, invokes the layer, and verifies the layer's guarantees.
 
 ## Related documents
 
